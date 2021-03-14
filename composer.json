@@ -1,0 +1,20 @@
+{
+    "name": "eeyet/arch",
+    "authors": [
+        {
+            "name": "dixonnixon",
+            "email": "drenb@ukr.net"
+        }
+    ],
+    "require": {
+        "fooman/tcpdf": "6.2.25.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Layers\\" : "src/Layers/",
+            "Providers\\": "src/Layers/Providers/",
+            "Services\\": "src/Layers/Services/"
+        }
+    }
+}
